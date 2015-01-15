@@ -13,7 +13,7 @@ print formatter % (True, False, False, True)
 # print the formatters over and over 
 print formatter % (formatter, formatter, formatter, formatter)
 
-# print each string with single quotes
+# print each string 
 print formatter % (
 	'I had this thing.,
 	'That you could type up right.',
